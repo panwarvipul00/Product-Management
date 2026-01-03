@@ -12,7 +12,7 @@ function App() {
   const [searchValue, setSearchValue] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
-  const itemsPerPage = 6;
+  const itemsPerPage = 3;
 
   // debounce search
   useEffect(() => {
